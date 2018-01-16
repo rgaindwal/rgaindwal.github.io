@@ -121,7 +121,7 @@ a {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: url("../img/dark.png") no-repeat bottom center scroll;
+  background: #212121 no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -167,7 +167,7 @@ a {
 
 .content-section {
   font-family: 'Roboto Condensed', sans-serif;
-  background: url("../img/light.png") no-repeat bottom center scroll;
+  background: #424242 no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -178,7 +178,7 @@ a {
 
   .know-section {
   color: white;
-  background: url("../img/light.png") no-repeat center center scroll;
+  background: #424242 no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -187,7 +187,7 @@ a {
 
 .skills-section {
   color: white;
-  background: url("../img/dark.png") no-repeat center center scroll;
+  background: #212121 no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -197,7 +197,7 @@ a {
 
   .work-section {
   color: white;
-  background: url("../img/light.png") no-repeat center center scroll;
+  background: #424242 no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -207,7 +207,7 @@ a {
   
   .contact-section {
     color: white;
-  background: url("../img/dark.png") no-repeat center center scroll;
+  background: #212121 no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
