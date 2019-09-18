@@ -18,8 +18,8 @@ body {
   width: 200px;
   -webkit-clip-path: circle(10% at 84% 17%);
           clip-path: circle(10% at 84% 17%);
-  -webkit-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
   cursor: pointer;
 }
 
