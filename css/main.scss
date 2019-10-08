@@ -13,14 +13,14 @@ body {
     background: #ff5252;
     padding: 2em;
     border-radius: 12px;
-    width: 200px;
-    clip-path: circle(10% at 84% 17%);
+    width: 320px;
+    clip-path: circle(10% at 87% 14%);
     transition: all .3s ease-in-out;
     cursor: pointer;
 
     &:hover {
         clip-path: circle(75%);
-        background: #7c4dff;
+        background: #9C7ADA;
     }
 
     span {
@@ -37,12 +37,11 @@ body {
         color: rgba(255, 255, 255, 0);
     }
 
-    h1 {
+    h2 {
         color: #fff;
         margin: 0;
         font-size: 45px;
-        margin-bottom: 10%;
-        margin-top: 30%;
+        margin-top: 20%;
 
     }
 
@@ -51,6 +50,12 @@ body {
         margin-top: 10px;
         margin-bottom: 0px;
         font-size: 1.2rem;
+    }
+
+    a {
+        text-decoration-color: #fff;
+        color: #fff;
+        text-underline-position: below;
     }
 
 }
