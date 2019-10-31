@@ -3,6 +3,8 @@
     ;
 }
 
+
+
 html {
     margin: 0;
     padding: 0;
@@ -111,6 +113,10 @@ nav ul li a {
         transition-delay: 0.4s;
     }
 
+    .nav-wrapper ul li:nth-child(4) a {
+        transition-delay: 0.5s;
+    }
+
     .nav-wrapper ul li:not(:first-child) {
         margin-left: 0;
     }
@@ -185,17 +191,16 @@ nav ul li a {
 }
 
 
-#nav:checked ~ .nav-wrapper {
+#nav:checked~.nav-wrapper {
     z-index: 9990;
     opacity: 1;
 }
 
-#nav:checked ~ .nav-wrapper ul li a {
+#nav:checked~.nav-wrapper ul li a {
     opacity: 1;
     transform: translateX(0);
 }
 
-.hidden{
+.hidden {
     display: none;
 }
-
