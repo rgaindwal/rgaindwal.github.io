@@ -22,11 +22,12 @@ body {
   /* Safari */
   position: sticky;
   top: 0;
+  visibility: hidden;
 }
 
 nav {
   height: 80px;
-  background: #fff;
+  background: #f5f5f5;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -71,7 +72,6 @@ nav {
   text-align: center;
   line-height: 40px;
   margin: 20px;
-  border: 2px solid;
 }
 
 .btn-home {
@@ -130,19 +130,21 @@ nav {
 }
 
 .wrapper h6 {
-  border-top: 2px solid #263238;
+  border-top: 2px solid #757575;
   margin-top: 20px;
   margin-bottom: 80px;
 }
 
 .wrapper .intro {
   font-size: 30px;
-  height: 70vh;
+  height: 65vh;
+  padding-top: 40px;
   width: 80%;
 }
 
 .wrapper .sub-intro {
   color: #757575;
+  margin: 0;
 }
 
 .btn-container {
@@ -156,6 +158,34 @@ nav {
   display: -ms-grid;
   display: grid;
   text-align: center;
+}
+
+.know-more {
+  margin: 0;
+}
+
+.know-more a {
+  text-decoration: none;
+}
+
+.know-more h4 {
+  border-top: 2px solid #757575;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  width: 200px;
+  text-align: center;
+}
+
+.my-work {
+  height: 100vh;
+}
+
+.about-me {
+  height: 100vh;
+}
+
+.contact-me {
+  height: 100vh;
 }
 
 .btn {
